@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+:root {
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    color: blue;
+    background-color: beige;
+} 
+
+header#home nav .menu a::before {
+    content: "<";
+}
+header#home nav .menu a::after {
+    content: ">";
+}
+
+.logo {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    color: blue;
+}
+
+footer {
+    color: red;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+.product-list > article > p::first-line {
+    font-weight: bold;
+}
+
+.product-list article img {
+    border: 1px solid blueviolet;
+    padding: 40px;
+    width: 100%;
+    display: block;
+    background-color: coral;
+    box-sizing: border-box;
+}
+
